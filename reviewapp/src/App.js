@@ -14,7 +14,7 @@ import Comedies from './Component/Comedies';
 function App() {
   return (
     <>
-       <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/tvshow" element={<Tvshow />} />
         <Route path="/movie" element={<Movie />} />
@@ -24,7 +24,6 @@ function App() {
         <Route path="/horror" element={<Horror />} />
         <Route path="/drama" element={<Drama />} />
         <Route path="/comedies" element={<Comedies />} />
-        {/* Add other routes as needed */}
       </Routes>
     </>
   );
