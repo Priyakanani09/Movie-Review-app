@@ -20,16 +20,16 @@ function Header() {
       setSearch("");
     }
   };
-
+  
   return (
     <Navbar expand="lg" bg="dark" variant="dark">
-      <Container>
+      <Container style={{maxWidth:'1600px'}}>
         <Navbar.Brand as={Link} to="/" className="fs-4">
           Movie Review
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto ms-auto fs-5 gap-4">
+          <Nav className="me-auto ms-auto fs-5 gap-5">
             <Nav.Link as={Link} to="/">
               Home
             </Nav.Link>
