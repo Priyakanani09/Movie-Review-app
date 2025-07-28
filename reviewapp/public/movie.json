@@ -1,189 +1,289 @@
 [
   {
+    "title": "Jawan",
+    "review": "An action-packed thriller that blends emotion, justice, Shah Rukh Khan’s powerful roles.",
+    "rating": "⭐ 4.7/5",
+    "image": "/Images/Jawan.jpg",
+    "genre": "Action, Thriller, Drama"
+  },
+  {
     "title": "Inception",
     "review": "A mind-bending thriller with brilliant direction by Christopher Nolan.",
     "rating": "⭐ 4.8/5",
-    "image": "/Images/Inception.jpg"
-  },
-  {
-    "title": "The Dark Knight",
-    "review": "An intense superhero crime drama with iconic performances.",
-    "rating": "⭐ 4.9/5",
-    "image": "https://m.media-amazon.com/images/I/81AJdOIEIhL._SL1500_.jpg"
+    "image": "/Images/Inception.jpg",
+    "genre": "Sci-Fi, Thriller, Action"
   },
   {
     "title": "3 Idiots",
     "review": "A heartwarming story with humor and a strong message on education.",
     "rating": "⭐ 4.6/5",
-    "image": "/Images/3_Idiots.jpg"
+    "image": "/Images/3_Idiots.jpg",
+    "genre": "Comedy, Drama"
   },
   {
     "title": "The Hangover",
     "review": "Wildly hilarious with unexpected twists.",
     "rating": "⭐ 4.3/5",
-    "image": "/Images/The-Hangover.jpg"
+    "image": "/Images/The-Hangover.jpg",
+    "genre": "Comedy"
+  },
+  {
+    "title": "Pushpa 2",
+    "review": "A high-voltage action sequel continuing the journey of Pushpa Raj.",
+    "rating": "⭐ 4.6/5",
+    "image": "/Images/Pushpa2.jpg",
+    "genre": "Action, Drama"
+  },
+  {
+    "title": "Amaran",
+    "review": "A powerful war biopic based on real events, highlighting courage, sacrifice.",
+    "rating": "⭐ 4.6/5",
+    "image": "/Images/Amaran.jpg",
+    "genre": "War, Biopic, Drama"
   },
   {
     "title": "Welcome",
     "review": "Bollywood comedy classic with iconic lines.",
     "rating": "⭐ 4.2/5",
-    "image": "/Images/Welcome.jpg"
+    "image": "/Images/Welcome.jpg",
+    "genre": "Comedy"
+  },
+  {
+    "title": "83",
+    "review": "A thrilling retelling of India's historic 1983 Cricket World Cup victory, led by Kapil Dev.",
+    "rating": "⭐ 4.6/5",
+    "image": "/Images/83.jpg",
+    "genre": "Sports, Drama"
   },
   {
     "title": "Interstellar",
     "review": "A visually stunning sci-fi epic that explores love, time, and space.",
     "rating": "⭐ 4.7/5",
-    "image": "/Images/Interstellar.jpg"
+    "image": "/Images/Interstellar.jpg",
+    "genre": "Drama, Adventure"
   },
   {
     "title": "PK",
     "review": "A fun yet thought-provoking social satire.",
     "rating": "⭐ 4.4/5",
-    "image": "/Images/Pk.jpg"
+    "image": "/Images/Pk.jpg",
+    "genre": "Comedy, Drama"
   },
   {
     "title": "The Conjuring",
     "review": "Spine-chilling and based on real events.",
     "rating": "⭐ 4.6/5",
-    "image": "/Images/Conjuring.jpg"
+    "image": "/Images/Conjuring.jpg",
+    "genre": "Horror, Supernatural, Thriller"
   },
   {
     "title": "Shershaah",
     "review": "Emotional and patriotic tale of Captain Vikram Batra.",
     "rating": "⭐ 4.8/5",
-    "image": "/Images/Shershaah.jpg"
+    "image": "/Images/Shershaah.jpg",
+    "genre": "War, Biopic, Drama"
   },
   {
     "title": "Panchayat",
     "review": "Simple and wholesome with strong rural storytelling.",
     "rating": "⭐ 4.6/5",
-    "image": "/Images/Panchayat.jpg"
+    "image": "/Images/Panchayat.jpg",
+    "genre": "Comedy, Drama, Slice of Life"
   },
   {
     "title": "Tumbbad",
     "review": "Indian horror masterpiece with mythological depth.",
     "rating": "⭐ 4.7/5",
-    "image": "/Images/Tumbbad.jpg"
+    "image": "/Images/Tumbbad.jpg",
+    "genre": "Horror, Fantasy, Thriller"
   },
   {
     "title": "De Dana Dan",
     "review": "Chaotic comedy with nonstop laughs.",
     "rating": "⭐ 4.1/5",
-    "image": "/Images/DeDanaDan.jpg"
+    "image": "/Images/DeDanaDan.jpg",
+    "genre": "Comedy"
   },
   {
     "title": "Annabelle",
     "review": "Possessed doll and classic horror vibes.",
     "rating": "⭐ 4.3/5",
-    "image": "/Images/Annabelle.jpg"
+    "image": "/Images/Annabelle.jpg",
+    "genre": "Horror, Supernatural"
+  },
+  {
+    "title": "RRR",
+    "review": "An explosive blend of friendship, rebellion, and patriotism.",
+    "rating": "⭐ 4.9/5",
+    "image": "/Images/RRR.jpg",
+    "genre": "Action, Historical, Drama"
   },
   {
     "title": "Stranger Things",
     "review": "Sci-fi horror with an 80s vibe and strong characters.",
     "rating": "⭐ 4.8/5",
-    "image": "/Images/Strange.jpg"
+    "image": "/Images/Strange.jpg",
+    "genre": "Sci-Fi, Horror, Mystery"
   },
   {
     "title": "Simmba",
     "review": "Rogue cop turns hero in this action-packed entertainer.",
     "rating": "⭐ 4.3/5",
-    "image": "/Images/Simmba.jpg"
+    "image": "/Images/Simmba.jpg",
+    "genre": "Action, Comedy, Drama"
   },
   {
     "title": "Mirzapur",
     "review": "Violent, gritty, and extremely addictive.",
     "rating": "⭐ 4.5/5",
-    "image": "/Images/mirzapur.jpg"
+    "image": "/Images/mirzapur.jpg",
+    "genre": "Crime, Thriller, Action"
   },
   {
     "title": "Bhool Bhulaiyaa 3",
     "review": "Blend of horror and comedy with a cultural twist.",
     "rating": "⭐ 4.4/5",
-    "image": "/Images/Bool.jpg"
+    "image": "/Images/Bool.jpg",
+    "genre": "Horror, Comedy"
   },
   {
     "title": "Golmaal Again",
     "review": "Laughter-packed with a ghostly twist.",
     "rating": "⭐ 4.1/5",
-    "image": "/Images/Golmaal.jpg"
+    "image": "/Images/Golmaal.jpg",
+    "genre": "Comedy, Fantasy"
+  },
+  {
+    "title": "Hit: The First Case",
+    "review": "A tense investigative thriller following a troubled cop as he uncovers dark secrets during a missing person case.",
+    "rating": "⭐ 4.4/5",
+    "image": "/Images/Hit.jpg",
+    "genre": "Crime, Thriller, Mystery"
   },
   {
     "title": "Game of Thrones",
     "review": "Epic fantasy saga with political intrigue and dragons.",
     "rating": "⭐ 4.7/5",
-    "image": "/Images/game.jpg"
+    "image": "/Images/game.jpg",
+    "genre": "Fantasy, Drama, Action"
   },
   {
     "title": "Housefull 5",
     "review": "Over-the-top comedy and crazy twists with the Housefull gang.",
     "rating": "⭐ 4.0/5",
-    "image": "/Images/Housefull5.jpg"
+    "image": "/Images/Housefull5.jpg",
+    "genre": "Comedy"
   },
   {
     "title": "Major",
     "review": "Inspiring biopic of Major Sandeep Unnikrishnan's valor.",
     "rating": "⭐ 4.7/5",
-    "image": "/Images/Major.jpg"
+    "image": "/Images/Major.jpg",
+    "genre": "Biopic, Drama, War"
   },
   {
     "title": "Singham Again",
     "review": "High-octane action and strong moral values from a fearless cop.",
     "rating": "⭐ 4.5/5",
-    "image": "/Images/Singham.jpg"
+    "image": "/Images/Singham.jpg",
+    "genre": "Action, Crime, Drama"
   },
   {
-  "title": "Luka Chuppi",
-  "review": "A light romantic comedy that cleverly explores the concept of live-in relationships.",
-  "rating": "⭐ 4.0/5",
-  "image": "/Images/LukaChuppi.jpg"
-},
-
+    "title": "Luka Chuppi",
+    "review": "A light romantic comedy that cleverly explores the concept of live-in relationships.",
+    "rating": "⭐ 4.0/5",
+    "image": "/Images/LukaChuppi.jpg",
+    "genre": "Romance, Comedy"
+  },
   {
     "title": "John Wick",
     "review": "A relentless action-packed revenge saga led by Keanu Reeves.",
     "rating": "⭐ 4.6/5",
-    "image": "/Images/JohnWick.jpg"
+    "image": "/Images/JohnWick.jpg",
+    "genre": "Action, Thriller, Crime"
+  },
+  {
+    "title": "Kalki ",
+    "review": "A futuristic mythological sci-fi tale set in a dystopian India.",
+    "rating": "⭐ 4.5/5",
+    "image": "/Images/Kalki.jpg",
+    "genre": "Mythology, Sci-Fi, Fantasy"
+  },
+  {
+    "title": "Jai Ho",
+    "review": "A socially action where a common man takes on the system to bring justice.",
+    "rating": "⭐ 4.2/5",
+    "image": "/Images/JaiHo.jpg",
+    "genre": "Action, Drama"
   },
   {
     "title": "Dhoom 3",
     "review": "Stylish heist thriller with high-octane stunts and Hrithik Roshan's charisma.",
     "rating": "⭐ 4.4/5",
-    "image": "/Images/Dhoom.jpg"
+    "image": "/Images/Dhoom.jpg",
+    "genre": "Action, Thriller, Crime"
   },
   {
     "title": "The Godfather",
     "review": "A cinematic masterpiece exploring the rise of a mafia family.",
     "rating": "⭐ 5.0/5",
-    "image": "/Images/Godfather.jpg"
+    "image": "/Images/Godfather.jpg",
+    "genre": "Crime, Drama"
+  },
+  {
+    "title": "Drishyam 2",
+    "review": "A gripping suspense drama where a father goes to great lengths to protect his family.",
+    "rating": "⭐ 4.8/5",
+    "image": "/Images/Drishyam.jpg",
+    "genre": "Thriller, Crime, Drama"
   },
   {
     "title": "War",
     "review": "Slick Bollywood action thriller with Hrithik and Tiger clashing head-to-head.",
     "rating": "⭐ 4.3/5",
-    "image": "/Images/War.jpg"
+    "image": "/Images/War.jpg",
+    "genre": "Action, Thriller"
   },
   {
-   "title": "KGF Chapter 2",
-   "review": "An intense and stylish continuation of the KGF saga with powerful performances.",
-   "rating": "⭐ 4.6/5",
-   "image": "/Images/KGF2.jpg"
-  },
-  {
-    "title": "Pathaan",
-    "review": "Shah Rukh Khan returns in this high-budget spy action thriller.",
-    "rating": "⭐ 4.4/5",
-    "image": "/Images/Pathan.jpg"
+    "title": "KGF Chapter 2",
+    "review": "An intense and stylish continuation of the KGF saga with powerful performances.",
+    "rating": "⭐ 4.6/5",
+    "image": "/Images/KGF2.jpg",
+    "genre": "Action, Crime, Drama"
   },
   {
     "title": "Sacred Games",
     "review": "A gritty and intense Indian crime drama set in Mumbai’s underworld.",
     "rating": "⭐ 4.7/5",
-    "image": "/Images/SacredGames.jpg"
+    "image": "/Images/SacredGames.jpg",
+    "genre": "Crime, Thriller, Mystery"
+  },
+  {
+    "title": "Raid 2",
+    "review": "A sequel that raises the stakes with an honest officer against a corrupt empire.",
+    "rating": "⭐ 4.4/5",
+    "image": "/Images/Raid2.jpg",
+    "genre": "Action, Crime, Thriller"
+  },
+  {
+    "title": "Sarzameen",
+    "review": "A gripping patriotic thriller that showcases the sacrifice of Indian soldiers.",
+    "rating": "⭐ 4.5/5",
+    "image": "/Images/Sarzameen.jpg",
+    "genre": "Action, Thriller, Patriotic"
   },
   {
     "title": "Fast & Furious 9",
     "review": "Cars, family, and wild stunts in this global action franchise.",
     "rating": "⭐ 4.1/5",
-    "image": "/Images/Fast9.jpg"
+    "image": "/Images/Fast9.jpg",
+    "genre": "Action, Crime, Thriller"
+  },
+  {
+    "title": "The Dark Knight",
+    "review": "An intense superhero crime drama with iconic performances.",
+    "rating": "⭐ 4.9/5",
+    "image": "https://m.media-amazon.com/images/I/81AJdOIEIhL._SL1500_.jpg",
+    "genre": "Superhero, Action, Crime, Drama"
   }
 ]
