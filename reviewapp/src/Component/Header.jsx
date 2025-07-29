@@ -46,9 +46,6 @@ function Header() {
               <NavDropdown.Item as={Link} to="/sport">
                 Sports
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/bollywood">
-                Bollywood
-              </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/horror">
                 Horror
               </NavDropdown.Item>

@@ -88,7 +88,14 @@
     "review": "Simple and wholesome with strong rural storytelling.",
     "rating": "⭐ 4.6/5",
     "image": "/Images/Panchayat.jpg",
-    "genre": "Comedy, Drama, Slice of Life"
+    "genre": "Comedy, Drama, Tvshow"
+  },
+  {
+    "title": "Jersey",
+    "review": "A emotional tale of a father late comeback in cricket to fulfill his son dream.",
+    "rating": "⭐ 4.5/5",
+    "image": "/Images/Jersey.jpg",
+    "genre": "Sports, Drama"
   },
   {
     "title": "Tumbbad",
@@ -96,6 +103,13 @@
     "rating": "⭐ 4.7/5",
     "image": "/Images/Tumbbad.jpg",
     "genre": "Horror, Fantasy, Thriller"
+  },
+  {
+    "title": "CID",
+    "review": "India longest-running series following ACP Pradyuman and his team.",
+    "rating": "⭐ 4.5/5",
+    "image": "/Images/CID.jpg",
+    "genre": "Crime, Investigation, Tvshow"
   },
   {
     "title": "De Dana Dan",
@@ -123,7 +137,7 @@
     "review": "Sci-fi horror with an 80s vibe and strong characters.",
     "rating": "⭐ 4.8/5",
     "image": "/Images/Strange.jpg",
-    "genre": "Sci-Fi, Horror, Mystery"
+    "genre": "Sci-Fi, Horror, Tvshow"
   },
   {
     "title": "Simmba",
@@ -132,12 +146,26 @@
     "image": "/Images/Simmba.jpg",
     "genre": "Action, Comedy, Drama"
   },
+   {
+    "title": "Stree",
+    "review": "A spooky yet funny tale of a mysterious spirit haunting a small town.",
+    "rating": "⭐ 4.3/5",
+    "image": "/Images/Stree.jpg",
+    "genre": "Horror, Comedy"
+  },
   {
     "title": "Mirzapur",
     "review": "Violent, gritty, and extremely addictive.",
     "rating": "⭐ 4.5/5",
     "image": "/Images/mirzapur.jpg",
-    "genre": "Crime, Thriller, Action"
+    "genre": "Crime, Thriller, Tvshow"
+  },
+  {
+    "title": "MS Dhoni: The Untold Story",
+    "review": "Ticket collector to cricket legend, Dhoni journey..",
+    "rating": "⭐ 4.6/5",
+    "image": "/Images/MSDhoni.jpg",
+    "genre": "Sports, Biopic, Drama"
   },
   {
     "title": "Bhool Bhulaiyaa 3",
@@ -155,7 +183,7 @@
   },
   {
     "title": "Hit: The First Case",
-    "review": "A tense investigative thriller following a troubled cop as he uncovers dark secrets during a missing person case.",
+    "review": "A tense investigative thriller following a troubled cop as he uncovers dark secrets.",
     "rating": "⭐ 4.4/5",
     "image": "/Images/Hit.jpg",
     "genre": "Crime, Thriller, Mystery"
@@ -165,7 +193,21 @@
     "review": "Epic fantasy saga with political intrigue and dragons.",
     "rating": "⭐ 4.7/5",
     "image": "/Images/game.jpg",
-    "genre": "Fantasy, Drama, Action"
+    "genre": "Fantasy, Action,Tvshow"
+  },
+  {
+    "title": "Crime Patrol",
+    "review": "Real-life inspired crime cases shown with dramatic storytelling.",
+    "rating": "⭐ 4.4/5",
+    "image": "/Images/CrimePatrol.jpg",
+    "genre": "Crime, Reality, Tvshow"
+  },
+  {
+    "title": "Sultan",
+    "review": "A powerful story of a wrestler's rise, fall, and comeback.",
+    "rating": "⭐ 4.4/5",
+    "image": "/Images/Sultan.jpg",
+    "genre": "Sports, Drama"
   },
   {
     "title": "Housefull 5",
@@ -194,6 +236,13 @@
     "rating": "⭐ 4.0/5",
     "image": "/Images/LukaChuppi.jpg",
     "genre": "Romance, Comedy"
+  },
+  {
+    "title": "Shaitaan",
+    "review": "A family battles a mysterious intruder with dark supernatural powers.",
+    "rating": "⭐ 4.2/5",
+    "image": "/Images/Shaitaan.jpg",
+    "genre": "Horror, Thriller"
   },
   {
     "title": "John Wick",
@@ -231,6 +280,13 @@
     "genre": "Crime, Drama"
   },
   {
+    "title": "Dangal",
+    "review": "An inspiring story of a father training his daughters to become world wrestlers.",
+    "rating": "⭐ 4.8/5",
+    "image": "/Images/Dangal.jpg",
+    "genre": "Sports, Drama, Biopic"
+  },
+  {
     "title": "Drishyam 2",
     "review": "A gripping suspense drama where a father goes to great lengths to protect his family.",
     "rating": "⭐ 4.8/5",
@@ -250,6 +306,20 @@
     "rating": "⭐ 4.6/5",
     "image": "/Images/KGF2.jpg",
     "genre": "Action, Crime, Drama"
+  },
+  {
+    "title": "Laxmii",
+    "review": "A horror-comedy about a man possessed by a transgender ghost.",
+    "rating": "⭐ 3.5/5",
+    "image": "/Images/Laxmii.jpg",
+    "genre": "Horror, Comedy"
+  },
+  {
+    "title": "Shabaash Mithu",
+    "review": "An inspiring biopic of Mithali Raj, showcasing her struggles.",
+    "rating": "⭐ 4.4/5",
+    "image": "/Images/ShabaashMithu.jpg",
+    "genre": "Sports, Biopic, Drama"
   },
   {
     "title": "Sacred Games",
@@ -273,6 +343,20 @@
     "genre": "Action, Thriller, Patriotic"
   },
   {
+    "title": "The Dark Knight",
+    "review": "An intense superhero crime drama with iconic performances.",
+    "rating": "⭐ 4.9/5",
+    "image": "https://m.media-amazon.com/images/I/81AJdOIEIhL._SL1500_.jpg",
+    "genre": "Superhero, Action"
+  },
+  {
+    "title": "Chak De! India",
+    "review": "A disgraced hockey player returns as a coach to lead the Indian women's hockey team.",
+    "rating": "⭐ 4.7/5",
+    "image": "/Images/ChakDeIndia.jpg",
+    "genre": "Sports"
+  },
+  {
     "title": "Fast & Furious 9",
     "review": "Cars, family, and wild stunts in this global action franchise.",
     "rating": "⭐ 4.1/5",
@@ -280,10 +364,10 @@
     "genre": "Action, Crime, Thriller"
   },
   {
-    "title": "The Dark Knight",
-    "review": "An intense superhero crime drama with iconic performances.",
-    "rating": "⭐ 4.9/5",
-    "image": "https://m.media-amazon.com/images/I/81AJdOIEIhL._SL1500_.jpg",
-    "genre": "Superhero, Action, Crime, Drama"
+    "title": "Bhaag Milkha Bhaag",
+    "review": "An inspiring journey of athlete Milkha Singh’s rise against all odds.",
+    "rating": "⭐ 4.7/5",
+    "image": "/Images/BhaagMilkha.jpg",
+    "genre": "Sports, Biopic"
   }
 ]

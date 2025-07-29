@@ -6,7 +6,6 @@ import Tvshow from './Component/Tvshow';
 import Movie from './Component/Movie';
 import Action from './Component/Action';
 import Sport from './Component/Sport';
-import Bollywood from './Component/Bollywood';
 import Horror from './Component/Horror';
 import Drama from './Component/Drama';
 import Comedies from './Component/Comedies';
@@ -20,7 +19,6 @@ function App() {
         <Route path="/movie" element={<Movie />} />
         <Route path="/action" element={<Action />} />
         <Route path="/sport" element={<Sport />} />
-        <Route path="/bollywood" element={<Bollywood />} />
         <Route path="/horror" element={<Horror />} />
         <Route path="/drama" element={<Drama />} />
         <Route path="/comedies" element={<Comedies />} />

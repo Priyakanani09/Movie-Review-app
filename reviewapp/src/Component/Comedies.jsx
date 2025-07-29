@@ -11,8 +11,8 @@ function Comedies() {
     fetch('/movie.json')
       .then((res) => res.json())
       .then((data) => {
-        const horrormovies = data.filter(item => item.genre && item.genre.toLowerCase().includes('comedy'));
-        setMovie(horrormovies);
+        const comedymovies = data.filter(item => item.genre && item.genre.toLowerCase().includes('comedy'));
+        setMovie(comedymovies);
       })
       .catch((err) => console.error('Error loading movies:', err));
   }, []);
