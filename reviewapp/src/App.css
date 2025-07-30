@@ -13,22 +13,11 @@ body{
   font-size: 18px;
 }
 
+.text:hover{
+  color: aliceblue !important;
+}
 .dropdown-menu .dropdown-item:hover {
   background-color: #333333;
-}
-.white-placeholder::placeholder {
-  color: white !important;
-}
-
-.hover-effect {
-  background-color: #333;
-  color: white;
-   border-color: #898686 !important;
-}
-.hover-effect:hover,
-.hover-effect:focus {
-  border-color: #555 !important;
-  box-shadow: none !important;
 }
 .movie-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
