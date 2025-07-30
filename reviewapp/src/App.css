@@ -30,3 +30,10 @@ body{
   border-color: #555 !important;
   box-shadow: none !important;
 }
+.movie-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.movie-card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}

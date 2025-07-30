@@ -31,7 +31,7 @@ function Movie() {
                 to={`/movie/${item.title}`}
                 className="text-decoration-none"
               >
-                <div className="card shadow-sm bg-dark text-white h-100">
+                <div className="card shadow-sm bg-dark text-white h-100 movie-card">
                   <img
                     src={item.image}
                     className="card-img-top"
