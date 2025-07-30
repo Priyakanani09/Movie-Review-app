@@ -9,6 +9,7 @@ import Sport from './Component/Sport';
 import Horror from './Component/Horror';
 import Drama from './Component/Drama';
 import Comedies from './Component/Comedies';
+import MovieReview from './Component/MovieReview';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/horror" element={<Horror />} />
         <Route path="/drama" element={<Drama />} />
         <Route path="/comedies" element={<Comedies />} />
+        <Route path="/movie/:title" element={<MovieReview/> } />
       </Routes>
     </>
   );
