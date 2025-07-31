@@ -50,7 +50,7 @@ function MovieReview() {
     localStorage.setItem(`review_${title}`, JSON.stringify(updated));
   };
 
-  // 🛡️ Prevent crash on initial load
+  // If movie not found or Loading
   if (!movie) {
     return (
       <Container className="mt-5">
