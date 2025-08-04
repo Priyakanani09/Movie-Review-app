@@ -9,7 +9,7 @@ import "../App.css";
 function Header() {
 
   return (
-    <Navbar expand="lg" bg="dark" variant="dark">
+    <Navbar expand="lg" bg="dark" variant="dark" fixed="top"> 
       <Container style={{maxWidth:'1400px'}}>
         <Navbar.Brand as={Link} to="/" className="fs-4">
           Movie Review

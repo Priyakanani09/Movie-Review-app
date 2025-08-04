@@ -369,5 +369,12 @@
     "rating": "⭐ 4.7/5",
     "image": "/Images/BhaagMilkha.jpg",
     "genre": "Sports, Biopic"
+  },
+  {
+    "title": "Jumanji: Welcome to the Jungle",
+    "review": "A thrilling adventure where players are trapped in a video game world.",
+    "rating": "⭐ 4.3/5",
+    "image": "/Images/jumanji.jpg",
+    "genre": "Comedy, Adventure, Fantasy"
   }
 ]
