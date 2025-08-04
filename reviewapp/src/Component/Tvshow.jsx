@@ -20,8 +20,8 @@ function Tvshow() {
 
   return (
     <>
-      <Header />
-      <Container style={{ maxWidth: '1600px' }}>
+     <Header />
+      <Container style={{ maxWidth: "1600px" }}>
         <Row style={{marginTop: "7%"}}>
           {movie.map((item, index) => (
             <Col lg={2} md={3} sm={6} className="mb-5" key={index}>
