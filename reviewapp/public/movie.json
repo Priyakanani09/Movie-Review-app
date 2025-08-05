@@ -323,7 +323,7 @@
   },
   {
     "title": "Sacred Games",
-    "review": "A gritty and intense Indian crime drama set in Mumbai’s underworld.",
+    "review": "A gritty and intense Indian crime drama set in Mumbai's underworld.",
     "rating": "⭐ 4.7/5",
     "image": "/Images/SacredGames.jpg",
     "genre": "Crime, Thriller, Mystery"
@@ -377,4 +377,5 @@
     "image": "/Images/jumanji.jpg",
     "genre": "Comedy, Adventure, Fantasy"
   }
+  
 ]
