@@ -9,7 +9,7 @@ function Horror() {
   const [movie, setMovie] = useState([]);
 
   useEffect(() => {
-    fetch('/movie.json')
+    fetch(process.env.PUBLIC_URL + "/movie.json")
       .then((res) => res.json())
       .then((data) => {
         const horrormovies = data.filter(item => item.genre && item.genre.toLowerCase().includes('horror'));

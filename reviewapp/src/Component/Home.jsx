@@ -9,11 +9,12 @@ function Home() {
   const [movie, setMovie] = useState([]);
 
   useEffect(() => {
-    fetch("/movie.json")
-      .then((res) => res.json())
-      .then((data) => setMovie(data))
-      .catch((err) => console.error("Error loading movies:", err));
-  }, []);
+  fetch(process.env.PUBLIC_URL + "/movie.json")
+    .then((res) => res.json())
+    .then((data) => setMovie(data))
+    .catch((err) => console.error("Error loading movies:", err));
+}, []);
+
 
   return (
     <>
