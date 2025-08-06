@@ -14,7 +14,7 @@ function MovieReview() {
 
   // Load movie data
   useEffect(() => {
-    fetch("/movie.json")
+    fetch(process.env.PUBLIC_URL + "/movie.json")
       .then((res) => res.json())
       .then((data) => {
         const foundMovie = data.find((m) => m.title === title);

@@ -9,7 +9,7 @@ function Action() {
   const [movie, setMovie] = useState([]);
 
   useEffect(() => {
-    fetch('/movie.json')
+    fetch(process.env.PUBLIC_URL + "/movie.json")
       .then((res) => res.json())
       .then((data) => {
         const actionmovies = data.filter(item => item.genre && item.genre.toLowerCase().includes('action'));
@@ -31,7 +31,7 @@ function Action() {
               >
                 <div className="card shadow-sm bg-dark text-white h-100 movie-card">
                   <img
-                    src={item.image}
+                    src={process.env.PUBLIC_URL + item.image}
                     className="card-img-top"
                     alt={item.title}
                     style={{ height: "300px", objectFit: "fill" }}
