@@ -67,7 +67,7 @@ function MovieReview() {
         <Col lg={3} md={5} sm={6} className="mb-5">
           <div className="card shadow-lg bg-dark text-white">
             <img
-              src={movie.image}
+              src={process.env.PUBLIC_URL + movie.image}
               className="card-img-top"
               alt={movie.title}
               style={{ height: "450px", objectFit: "fill" }}

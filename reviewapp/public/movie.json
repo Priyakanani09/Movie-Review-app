@@ -346,8 +346,8 @@
     "title": "The Dark Knight",
     "review": "An intense superhero crime drama with iconic performances.",
     "rating": "⭐ 4.9/5",
-    "image": "https://m.media-amazon.com/images/I/81AJdOIEIhL._SL1500_.jpg",
-    "genre": "/Images/TheDark.jpg"
+    "image": "/Images/TheDark.jpg",
+    "genre": "Superhero, Action"
   },
   {
     "title": "Chak De! India",
