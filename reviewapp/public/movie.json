@@ -17,7 +17,7 @@
     "title": "3 Idiots",
     "review": "A heartwarming story with humor and a strong message on education.",
     "rating": "⭐ 4.6/5",
-    "image": "/Images/3_Idiots.jpg",
+    "image": "/Images/3_idiots.jpg",
     "genre": "Comedy, Drama"
   },
   {
@@ -59,7 +59,7 @@
     "title": "Interstellar",
     "review": "A visually stunning sci-fi epic that explores love, time, and space.",
     "rating": "⭐ 4.7/5",
-    "image": "/Images/Interstellar.jpg",
+    "image": "/Images/interstellar.jpg",
     "genre": "Drama, Adventure"
   },
   {
@@ -339,7 +339,7 @@
     "title": "Sarzameen",
     "review": "A gripping patriotic thriller that showcases the sacrifice of Indian soldiers.",
     "rating": "⭐ 4.5/5",
-    "image": "/Images/Sarzameen.jpg",
+    "image": "/Images/SarZameen.jpg",
     "genre": "Action, Thriller, Patriotic"
   },
   {
@@ -347,7 +347,7 @@
     "review": "An intense superhero crime drama with iconic performances.",
     "rating": "⭐ 4.9/5",
     "image": "https://m.media-amazon.com/images/I/81AJdOIEIhL._SL1500_.jpg",
-    "genre": "Superhero, Action"
+    "genre": "/Images/TheDark.jpg"
   },
   {
     "title": "Chak De! India",
