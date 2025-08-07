@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Movie-Review-app/static/css/main.c35a29dd.css",
-    "main.js": "/Movie-Review-app/static/js/main.2693651d.js",
+    "main.js": "/Movie-Review-app/static/js/main.32243588.js",
     "static/js/453.52d39a0b.chunk.js": "/Movie-Review-app/static/js/453.52d39a0b.chunk.js",
     "static/media/logo.svg": "/Movie-Review-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Movie-Review-app/index.html",
     "main.c35a29dd.css.map": "/Movie-Review-app/static/css/main.c35a29dd.css.map",
-    "main.2693651d.js.map": "/Movie-Review-app/static/js/main.2693651d.js.map",
+    "main.32243588.js.map": "/Movie-Review-app/static/js/main.32243588.js.map",
     "453.52d39a0b.chunk.js.map": "/Movie-Review-app/static/js/453.52d39a0b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c35a29dd.css",
-    "static/js/main.2693651d.js"
+    "static/js/main.32243588.js"
   ]
 }
