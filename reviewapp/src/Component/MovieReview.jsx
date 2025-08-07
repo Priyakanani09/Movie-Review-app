@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Col, Container, Row, Form, Button } from "react-bootstrap";
-import "react-toastify/dist/ReactToastify.css";
 import { useParams } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function MovieReview() {
   const { title } = useParams();
@@ -13,6 +13,7 @@ function MovieReview() {
     rating: "",
   });
   const [allReviews, setAllReviews] = useState([]);
+  const [editIndex, setEditIndex] = useState(null);
 
   // Load movie data
   useEffect(() => {
@@ -25,7 +26,7 @@ function MovieReview() {
       .catch((err) => console.error("Error fetching movie:", err));
   }, [title]);
 
-  // Load reviews from localStorage
+  // Load stored reviews
   useEffect(() => {
     const stored = localStorage.getItem(`review_${title}`);
     if (stored) {
@@ -39,11 +40,20 @@ function MovieReview() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const updatedReviews = [...allReviews, userReview];
+    let updatedReviews;
+    if (editIndex !== null) {
+      updatedReviews = [...allReviews];
+      updatedReviews[editIndex] = userReview;
+      toast.success("Review updated!");
+    } else {
+      updatedReviews = [...allReviews, userReview];
+      toast.success("Review added!");
+    }
+
     setAllReviews(updatedReviews);
     localStorage.setItem(`review_${title}`, JSON.stringify(updatedReviews));
-    setUserReview({ name: "", review: "", rating: "" }); // clear form
-    toast.info("Review add successfully!");
+    setUserReview({ name: "", review: "", rating: "" });
+    setEditIndex(null);
   };
 
   const handleDelete = (index) => {
@@ -51,12 +61,18 @@ function MovieReview() {
     updated.splice(index, 1);
     setAllReviews(updated);
     localStorage.setItem(`review_${title}`, JSON.stringify(updated));
-    toast.success("Review deleted successfully!");
+    toast.success("Review deleted!");
   };
 
-  // If movie not found or Loading
+  const handleEdit = (index) => {
+    const reviewToEdit = allReviews[index];
+    setUserReview(reviewToEdit);
+    setEditIndex(index);
+    toast.info("Edit mode activated");
+  };
+
   if (!movie) {
-    return <p>Loading or movie not found...</p>;
+    return <p className="text-center mt-5">Loading or movie not found...</p>;
   }
 
   return (
@@ -82,7 +98,9 @@ function MovieReview() {
           </Col>
 
           <Col lg={6} md={7}>
-            <h4 className="mb-3">Add Your Review</h4>
+            <h4 className="mb-3">
+              {editIndex !== null ? "Edit Your Review" : "Add Your Review"}
+            </h4>
             <Form onSubmit={handleSubmit}>
               <Form.Group className="mb-3" controlId="formName">
                 <Form.Label>Your Name</Form.Label>
@@ -95,7 +113,7 @@ function MovieReview() {
                   placeholder="Enter your name"
                 />
               </Form.Group>
-              
+
               <Form.Group className="mb-3" controlId="formReview">
                 <Form.Label>Your Review</Form.Label>
                 <Form.Control
@@ -121,8 +139,11 @@ function MovieReview() {
                 />
               </Form.Group>
 
-              <Button variant="warning" type="submit">
-                Submit Review
+              <Button
+                variant={editIndex !== null ? "success" : "warning"}
+                type="submit"
+              >
+                {editIndex !== null ? "Update Review" : "Submit Review"}
               </Button>
             </Form>
 
@@ -145,6 +166,14 @@ function MovieReview() {
                     >
                       Delete
                     </Button>
+                    <Button
+                      variant="info"
+                      size="sm"
+                      className="ms-2"
+                      onClick={() => handleEdit(i)}
+                    >
+                      Edit
+                    </Button>
                   </div>
                 ))}
               </div>
@@ -152,7 +181,7 @@ function MovieReview() {
           </Col>
         </Row>
       </Container>
-      <ToastContainer position="bottom-center" autoClose={1000} />
+      <ToastContainer position="bottom-center" autoClose={1200} />
     </>
   );
 }
