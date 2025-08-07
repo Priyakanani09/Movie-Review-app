@@ -56,13 +56,7 @@ function MovieReview() {
 
   // If movie not found or Loading
   if (!movie) {
-    return (
-      <Container className="mt-5">
-        <h3 className="text-center text-danger">
-          Movie not found or loading...
-        </h3>
-      </Container>
-    );
+    return <p>Loading or movie not found...</p>;
   }
 
   return (
@@ -101,7 +95,7 @@ function MovieReview() {
                   placeholder="Enter your name"
                 />
               </Form.Group>
-
+              
               <Form.Group className="mb-3" controlId="formReview">
                 <Form.Label>Your Review</Form.Label>
                 <Form.Control
