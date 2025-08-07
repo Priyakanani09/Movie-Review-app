@@ -43,6 +43,7 @@ function MovieReview() {
     setAllReviews(updatedReviews);
     localStorage.setItem(`review_${title}`, JSON.stringify(updatedReviews));
     setUserReview({ name: "", review: "", rating: "" }); // clear form
+    toast.info("Review add successfully!");
   };
 
   const handleDelete = (index) => {
