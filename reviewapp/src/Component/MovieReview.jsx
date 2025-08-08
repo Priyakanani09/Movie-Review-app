@@ -45,7 +45,8 @@ function MovieReview() {
       updatedReviews = [...allReviews];
       updatedReviews[editIndex] = userReview;
       toast.success("Review updated!");
-    } else {
+    } 
+    else {
       updatedReviews = [...allReviews, userReview];
       toast.success("Review added!");
     }
